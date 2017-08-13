@@ -2,9 +2,9 @@
 
 if($_SERVER["REQUEST_METHOD"]=="POST"){
 
-echo "NAME:".$_POST["email"]."<br>";
-echo "LAST:".$_POST["pass"]."<br>";
-
+echo "NAME:".$_POST["name"]."<br>";
+echo "EMAIL:".$_POST["email"]."<br>";
+echo "MESSAGE : ".$_POST["message"];
 }
 
 ?>
