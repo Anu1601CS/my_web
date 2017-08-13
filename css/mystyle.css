@@ -884,7 +884,7 @@ input[type="text"]:focus,input[type="email"]:focus,textarea[type="message"]:focu
     z-index: 1;
     left: 50%;
     border: 10px;
-    bottom: 30px;
+    bottom: 50px;
     font-size: 17px;
   }
 
