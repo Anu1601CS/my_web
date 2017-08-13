@@ -286,3 +286,6 @@ $('#submit').click(function()
     });
 });
 
+
+var form = document.getElementById("myForm");
+form.reset();
