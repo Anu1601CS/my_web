@@ -876,8 +876,8 @@ input[type="text"]:focus,input[type="email"]:focus,textarea[type="message"]:focu
      word-spacing: 1.5px;
 	min-width: 200px;
     margin-left: -100px;
-    background-color:green;
-    color: black;
+    background-color:#14b9f5;
+    color: white;
     text-align: center;
     border-radius: 2px;
     padding: 16px;
