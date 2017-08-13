@@ -428,12 +428,13 @@ display: inline-block;
 
 #line1{
 	color: white;
-	font-size: 25px;
+	font-size: 40px;
 	padding-top:20px!important; 
 	border-bottom: 1.5px solid #999999;
 	padding-bottom: 15px;  
 		font-family: "merriweather-bold", serif;
 		letter-spacing: 1px;
+	font-weight:500;
 }
 
 #line2{
