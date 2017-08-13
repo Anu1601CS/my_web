@@ -163,7 +163,7 @@ document.onreadystatechange = function () {
          document.getElementById('interactive');
          document.getElementById('background').style.display="none";
          document.getElementById('main').style.display="block";
-      },2);
+      },0);
   }
 }
 
