@@ -875,7 +875,7 @@ input[type="text"]:focus,input[type="email"]:focus,textarea[type="message"]:focu
      word-spacing: 1.5px;
 	min-width: 200px;
     margin-left: -100px;
-    background:rgba(101, 67, 173, 0.8);
+    background-color:green;
     color: black;
     text-align: center;
     border-radius: 2px;
