@@ -366,6 +366,14 @@ box-shadow:0 0 10px black;
   bottom: 45px;
 
 }
+      
+      #footer{
+  width: 100%;
+  padding:0;
+  text-align: center;
+
+
+}
 
 .descripition{
   text-align: left;
