@@ -368,12 +368,9 @@ box-shadow:0 0 10px black;
 }
       
       #footer{
-  width: 100%;
-  padding:0;
-  text-align: center;
-
-
-}
+ 
+  padding: 50px 0 20px 0;
+  }
 
 .descripition{
   text-align: left;
