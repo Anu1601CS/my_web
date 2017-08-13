@@ -267,3 +267,22 @@ function snack(){
 
   /****************scroll to top in blog**********************************/
 
+
+$('#submit').click(function()
+{
+    $.ajax({
+        url: php/action.php,
+        type:'POST',
+        data:
+        {   
+            user_name:name,
+            email: email,
+            message: message
+        },
+        success: function(msg)
+        {
+            alert('Email Sent');
+        }               
+    });
+});
+
