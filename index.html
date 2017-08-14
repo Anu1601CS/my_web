@@ -90,23 +90,23 @@
 
      <!--INTRO SECTION OPEN-->
 
-  <section id="intro">
+  <section id="intro"  style="height:50em!important;">
                      
-                    <div id="inner-intro" class="animate-bottom">
+                    <div id="inner-intro">
 
                         <div id="intro-image">
 
-                         <img src="css/image/logo.jpg" >
+                         <img src="css/image/logo.jpg" id="line" style="display: none;" >
 
                         </div>
        
-                         <h1 id="line1" >Anurag</h1>
-                         <h1 id="line2">Major:  </h1>
-                         <h1 id="line3">CSE  AT  IIT-P</h1>
-                         <h1 id="line4">Full Stack Web Developer</h1>
+                         <h1 id="line1"  style="display: none;">Anurag</h1>
+                         <h1 id="line2"  style="display: none;">Major:  </h1>
+                         <h1 id="line3"  style="display: none;">CSE  AT  IIT-P</h1>
+                         <h1 id="line4"  style="display: none;">Full Stack Web Developer</h1>
                          <br>
                          
-                         <ul id="social">
+                         <ul id="social" style="display: none;">
                          
                          <li><a href="https://www.facebook.com/anurag.kumarsingh.3532" target="_blank" title="facebook" class="fa faw-up fa-facebook"></a></li>
                          <li><a href="https://github.com/Anu1601" target="_blank" class="fa faw-up fa-github" title="Github"></a></li>
@@ -118,7 +118,7 @@
                           
                           <br>
 
-                           <a id="learn-more"  href="blog.html"   >Learn more</a>
+                           <a id="learn-more"  href="blog.html" style="display: none;"  >Learn more</a>
                       
                        </div>
                     
@@ -433,6 +433,22 @@ form.reset();</script>
         });
       }
     </script>
+	     <script>
+		     
+$(document).ready(function(){
+        
+        $("#line").delay("1000").fadeIn(1000);
+        $("#line1").delay("1300").fadeIn(1000);
+        $("#line2").delay("1600").fadeIn(1000);
+        $("#line3").delay("1900").fadeIn(1000);
+        $("#line4").delay("2200").fadeIn(1000);
+        $("#social").delay("2500").fadeIn(1000);
+         $("#learn-more").delay("2800").fadeIn(1000);
+    
+});
+	     </script>
+	     
+	     
 <!--******************************************************************************-->
 
 
