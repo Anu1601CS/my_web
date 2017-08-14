@@ -153,7 +153,7 @@
 
 /****************************preloader*************************/
 
-
+/*
 document.onreadystatechange = function () {
   var state = document.readyState
   if (state == 'interactive') {
@@ -167,6 +167,7 @@ document.onreadystatechange = function () {
   }
 }
 
+*/
 
 
 
@@ -287,5 +288,14 @@ $('#submit').click(function()
 });
 
 
-var form = document.getElementById("myForm");
-form.reset();
+$(document).ready(function(){
+        
+        $("#line").delay("1000").fadeIn(1000);
+        $("#line1").delay("1300").fadeIn(1000);
+        $("#line2").delay("1600").fadeIn(1000);
+        $("#line3").delay("1900").fadeIn(1000);
+        $("#line4").delay("2200").fadeIn(1000);
+        $("#social").delay("2500").fadeIn(1000);
+         $("#learn-more").delay("2800").fadeIn(1000);
+    
+});
