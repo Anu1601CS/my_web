@@ -43,9 +43,7 @@ body{
 	height:100%;
 	display: flex;
 	background-image: url("image/6.jpg");
-	background-position: center;
-	background-size: cover;
-	overflow: hidden; 
+	
      
 	
 }
