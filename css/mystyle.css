@@ -293,7 +293,7 @@ word-spacing: 15px;
 	background-position: center;
 	background-size: cover;
 }
-     
+<!--     
 
 #loader{
     position: absolute;
@@ -309,7 +309,7 @@ word-spacing: 15px;
 
 
 }
-
+-->
 /*------------------------------------------------*/
 
 /* Add Zoom Animation */
@@ -367,6 +367,8 @@ section{
 
 
 
+
+
 #social li{
 
 display: inline-block;
@@ -377,6 +379,7 @@ display: inline-block;
 #social{
   word-spacing: 40px;
   line-height: 3.5;
+	display:block;
  }
 
  #social a{
@@ -391,7 +394,7 @@ display: inline-block;
  	color: rgba(0, 0, 0, 0.8);
  }
 
-
+<!--
 /* Add animation to "page content" */
 .animate-bottom {
   position: relative;/*-----------------------------------------*/
@@ -413,7 +416,7 @@ display: inline-block;
 
 }
 
-
+-->
 /*----------------------------------------*/
 
 /****section intro open*****/
@@ -567,8 +570,8 @@ display: inline-block;
   	text-decoration: none;
   	color: white;
   	font-size: 15px;
-  outline: none;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+        outline: none;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
   
   }
 
@@ -584,8 +587,8 @@ display: inline-block;
   	height: 2em;
   	vertical-align: middle;
   	text-align: center;
-    line-height: 2;
-    font-size: 20px;
+        line-height: 2;
+        font-size: 20px;
   }
 
     #lmb-github::before{
