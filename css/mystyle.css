@@ -41,17 +41,17 @@ body{
 #section-heading
 {
   color:white;
-font-size:50px;
-padding-top:60px;
-z-index:3;
-text-shadow:0 0  100px black;
+  font-size:50px;
+  padding-top:60px;
+  z-index:3;
+  text-shadow:0 0  100px black;
 }
 
 
 .parallax-window {
     height: 200px;
     background: transparent;
-text-align:center;
+    text-align:center;
 
 }
 
@@ -60,11 +60,11 @@ text-align:center;
 
 #header{
 
-z-index: 20;
-width: 100%; 
-position: fixed;
-user-select:none;
-@-webkit-transition: 0.5s all ease-in-out;
+  z-index: 20;
+  width: 100%; 
+  position: fixed;
+  user-select:none;
+   @-webkit-transition: 0.5s all ease-in-out;
 transition: 0.3s all ease-in-out;
 }
 
@@ -107,6 +107,7 @@ transition: 0.3s all ease-in-out;
 	background-color:white;
 	border-radius: 10px;
 	color: skyblue; 
+	  @-webkit-transition:opacity 1s all ease-in-out;
         transition: opacity 1s;
 	display: none;
 	z-index: 50;
@@ -133,7 +134,7 @@ transition: 0.3s all ease-in-out;
 	position: absolute;
 	right: 0;
 	top:0;
-    padding: 10px;
+        padding: 10px;
 }
 
 #headnav ul li{
@@ -160,7 +161,7 @@ transition: 0.3s all ease-in-out;
 
 #headnav ul{
 
-word-spacing: 15px;
+        word-spacing: 15px;
 	padding: 8px;
 }
 
@@ -178,7 +179,7 @@ word-spacing: 15px;
 	position: absolute;
 	right: 30px;
 	top:10px;
-    display: none;
+        display: none;
 
 }
 
@@ -279,7 +280,7 @@ word-spacing: 15px;
 
 /*----------------------------------------------*/
 
-/*preloader*/
+/*preloader
 
 #background{
          
@@ -317,6 +318,9 @@ word-spacing: 15px;
 
 }
 -->
+
+
+*/
 /*------------------------------------------------*/
 
 /* Add Zoom Animation */
@@ -346,7 +350,7 @@ word-spacing: 15px;
 section{
 
 	 width:100%;
-     display: block;
+         display: block;
 }
 
 
@@ -401,10 +405,10 @@ display: inline-block;
  	color: rgba(0, 0, 0, 0.8);
  }
 
-<!--
-/* Add animation to "page content" */
+
+/* Add animation to "page content" 
 .animate-bottom {
-  position: relative;/*-----------------------------------------*/
+  position: relative;
 
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration:3s;
@@ -423,7 +427,7 @@ display: inline-block;
 
 }
 
--->
+*/
 /*----------------------------------------*/
 
 /****section intro open*****/
@@ -443,14 +447,16 @@ display: inline-block;
 	padding-top:20px!important; 
 	border-bottom: 1.5px solid #999999;
 	padding-bottom: 15px;  
-		font-family: "merriweather-bold", serif;
-		letter-spacing: 1px;
-	font-weight:500;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+	    font-weight:400;
+        letter-spacing: 1px;
+
 }
 
 #line2{
 	color: white;
-	font-family: Arial, Helvetica, sans-serif;
+ font-family: "Source Sans Pro", Helvetica, sans-serif;
+	    font-weight:400;
 	font-size: 20px;
 	padding-top:15px; 
 	letter-spacing: 1px;
@@ -458,19 +464,21 @@ display: inline-block;
 
 #line3{
 	font-weight: 100;	
-    font-size: 20px;
-    font-family: Georgia, serif;
-    color: white;
-    word-spacing: 5px;
-   letter-spacing: 1px;
-   padding-top:15px; 
+        font-size: 20px;
+         font-family: "Source Sans Pro", Helvetica, sans-serif;
+	    font-weight:400;
+        color: white;
+        word-spacing: 5px;
+         letter-spacing: 1px;
+         padding-top:15px; 
 }
 
 #line4{
 
 	font-weight: 100;	 
     font-size: 25px;
-    font-family: "merriweather-bold", serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+	    font-weight:400;
     color: white;
    word-spacing: 3px;
    letter-spacing: 1px;
@@ -481,10 +489,12 @@ display: inline-block;
 #learn-more{
    text-decoration: none;
    color: white;
-   border:2px solid white;
+   border:1px solid white;
    border-radius: 50px;
    padding: 20px 50px;
-   font-size: 20px;	
+   font-size: 20px;
+   font-family: "Source Sans Pro", Helvetica, sans-serif;
+	    font-weight:400;	
    display: inline-block;
    white-space: nowrap;
 }
