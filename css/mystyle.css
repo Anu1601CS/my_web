@@ -383,14 +383,12 @@ section{
 #social li{
 
 display: inline-block;
-
-
 }
 
 #social{
   word-spacing: 40px;
   line-height: 3.5;
-	display:block;
+
  }
 
  #social a{
