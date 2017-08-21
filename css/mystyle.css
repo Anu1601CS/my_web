@@ -917,7 +917,10 @@ input[type="text"]:focus,input[type="email"]:focus,textarea[type="message"]:focu
 
 
   #snackbar.show {
-    visibility: visible;
+    visibility: visible;   
+	   -webkit-animation-delay: 2s;
+	  animation-delay: 2s;
+	  
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 1s,fadeout 0.5s 2.5s;
     
