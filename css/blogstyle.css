@@ -265,6 +265,7 @@ display: inline-block;
 #footer ul{
   word-spacing: 20px;
   line-height: 3;
+   text-align:center;   
   
 }
 
