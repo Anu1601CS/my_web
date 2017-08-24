@@ -324,7 +324,7 @@
                      <textarea  type="message" cols="30" rows="9" placeholder="Message...." required></textarea>
                      <br>
                      </div>
-                     <input type="submit" id="submit" value="Send" onsubmit="snack()">
+                     <input type="submit" id="submit" value="Send" onsubmit="snack" onclick="sorry()" >
          
                  </form>
 
@@ -450,7 +450,11 @@ $(document).ready(function(){
 });   </script>
 													      
 	    
-	     
+	     <script>
+function sorry() {
+    alert("Sorry, This Service Not Available This Time");
+}
+</script>
 	     
 <!--******************************************************************************-->
 
