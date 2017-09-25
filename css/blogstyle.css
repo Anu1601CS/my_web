@@ -159,9 +159,9 @@ margin: 15px 15px;
 #row-content:hover
 {
       cursor: pointer;
-      -webkit-transition: 1.5s; /* Safari */
-    transition: 1.5s;
-      margin: 20px 20px;
+      -webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;
+      margin: 10px 10px;
       
 }
 
