@@ -12,6 +12,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
   }
 
+body,html
+{
+-@-webkit-font-smoothing: antialiased!important;
+    font-family: AvenirNext,sans-serif!important;     
+}
 
  * {
     box-sizing: border-box;
@@ -148,8 +153,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 #row-content{
   text-align: center;
   box-shadow: 0 0 10px grey;
-margin: 20px 0;
+margin: 15px 15px;
 }
+
+#row-content:hover
+{
+      cursor: pointer;
+      -webkit-transition: 1.5s; /* Safari */
+    transition: 1.5s;
+      margin: 20px 20px;
+      
+}
+
 
 
 #content{
