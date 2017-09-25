@@ -111,8 +111,8 @@
 <br><h1 style="font-size: 25px;display: block;padding: 10px 10px;">I have Realtek 8723be Wireless Driver.<h1><br>
 
 <h1 style="font-size: 20px;display: block;padding: 10px 10px;">I have to use the following code in the terminal window of Ubuntu every time I turn on Ubuntu to make WiFi signal stronger:</h1>
-		    <br> <code>sudo modprobe -rv rtl8723be<br>
-                        &nbsp;sudo modprobe -v rtl8723be ant_sel=1</code><br>
+		    <br> <span id="code"><code>sudo modprobe -rv rtl8723be<br>
+		      &nbsp;sudo modprobe -v rtl8723be ant_sel=1</code></span><br>
  <h1 style="font-size: 20px;display: block;padding: 10px 10px;">This will create a config file to make the setting permanent.</h1>      
 		      <br><code>sudo tee /etc/modprobe.d/rtl8723be.conf <<< "options rtl8723be ant_sel=1"</code><br>
 		      
