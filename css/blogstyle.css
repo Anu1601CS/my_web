@@ -25,10 +25,11 @@ body,html
   code
       {  
             color: crimson;
-            background-color: #f1f1f1;
+            background-color:grey;
             padding-left: 4px;
             padding-right: 4px;
             font-family: Consolas,"courier new";
+            display:inline-block;
             
       }
 
@@ -237,7 +238,7 @@ word-spacing: 2px;
  
  padding: 20px 0px;
 font-size: 20px;
-
+word-spacing:5px;
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
 }
@@ -444,6 +445,9 @@ box-shadow:0 0 10px black;
   bottom: 45px;
 
 }
+      #heading{
+            font-size:20px;
+          }
       
       #footer{
  
