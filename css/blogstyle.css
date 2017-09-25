@@ -153,18 +153,18 @@ body,html
 #row-content{
   text-align: center;
   box-shadow: 0 0 10px grey;
-margin: 15px 15px;
+margin: 15px 0;
 }
-
+/*
 #row-content:hover
 {
       cursor: pointer;
-      -webkit-transition: 0.5s; /* Safari */
+      -webkit-transition: 0.5s; 
     transition: 0.5s;
       margin: 10px 10px;
       
 }
-
+*/
 
 
 #content{
