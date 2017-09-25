@@ -105,18 +105,21 @@
                                     <p class="descripition">
                                      
                                     
-I have Windows 10 and Ubuntu 16.04 LTS installed on my HP Laptop. In Ubuntu the WiFi signal reception is very weak while it is very good in Windows 10.
+I have Windows 10 and Ubuntu 16.04 LTS installed on my HP Laptop. In Ubuntu the WiFi signal reception is very weak while it is very good in Windows 10.</p>
 
 <br><h1 style="font-size: 25px;display: block;padding: 10px 10px;">I have Realtek 8723be Wireless Driver.<h1><br>
 
-I have to use the following code in the terminal window of Ubuntu every time I turn on Ubuntu to make WiFi signal stronger:</p>
-		      <code>sudo modprobe -rv rtl8723be<br>
-                       sudo modprobe -v rtl8723be ant_sel=1</code>
+<h1 style="font-size: 20px;display: block;padding: 10px 10px;">I have to use the following code in the terminal window of Ubuntu every time I turn on Ubuntu to make WiFi signal stronger:</h1>
+		    <br> <code>sudo modprobe -rv rtl8723be<br>
+                        &nbsp;sudo modprobe -v rtl8723be ant_sel=1</code><br>
+ <h1 style="font-size: 20px;display: block;padding: 10px 10px;">This will create a config file to make the setting permanent.</h1>      
+		      <br><code>sudo tee /etc/modprobe.d/rtl8723be.conf <<< "options rtl8723be ant_sel=1"</code><br>
 		      
 		                    <h1 style="font-size: 20px;display: block;padding: 10px 10px;">TAGS</h1>
                                     <a id="tags"  href="https://askubuntu.com/questions/872931/how-to-make-wifi-signal-stronger-on-ubuntu-16-04-lts">Wifi</a>
                                     <a id="tags"  href="https://askubuntu.com/">Ubuntu 16.04</a>
-		                    <a id="tags"  href="https://askubuntu.com/questions/tagged/realtek-wireless">Driver</a>         
+		                    <a id="tags"  href="https://askubuntu.com/questions/tagged/realtek-wireless">Driver</a>
+		                    <a id="tags"  href="https://askubuntu.com/questions/872931/how-to-make-wifi-signal-stronger-on-ubuntu-16-04-lts">Read-More</a>
 		           
 		                    
               </div>
