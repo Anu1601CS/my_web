@@ -105,16 +105,16 @@
 	      <div class="col-0" id="row-content" title="wifi-driver-fix">
                                    <i  id="share-icon" class="fa fa-share-alt" aria-hidden="true"></i> 
                                    <img style="width: 100px; height: 100px; position:relative; float: left;" src="../css/image/ubuntu.jpg">
-                                   <h1> <a href="#" id="heading">Fix Slow Wifi-Signal Strength In Ubuntu 16.04-LTS</a></h1>
+                                   <h1> <a href="#" id="heading">Fix Slow Wifi-Signal Strength In Ubuntu 16.04-LTS</a><i class="fa fa-check-circle" style="font-size:40px;color:green"></i></h1>
                                     <p class="descripition">I have Windows 10 and Ubuntu 16.04 LTS installed on my HP Laptop. In Ubuntu the WiFi signal reception is very weak while it is very good in Windows 10.</p>
 
 <br><h1 style="font-size: 25px;display: block;padding: 10px 10px;">I have Realtek 8723be Wireless Driver.<h1><br>
 
 <h1 style="font-size: 20px;display: block;padding: 10px 10px;">I have to use the following code in the terminal window of Ubuntu every time I turn on Ubuntu to make WiFi signal stronger:</h1>
-		    <br> <i class="fa fa-chain" style="font-size:48px;color:red"></i>&nbsp;&nbsp;<span id="code"><code>sudo modprobe -rv rtl8723be<br>
-		      &nbsp;sudo modprobe -v rtl8723be ant_sel=1</code></span><br>
+		    <br> <i class="fa fa-chain" style="font-size:30px;color:red"></i>&nbsp;&nbsp;<span id="code"><i class="fa fa-caret-right" style="font-size:20px;color:red"></i>sudo modprobe -rv rtl8723be<br>
+		      &nbsp;<i class="fa fa-caret-right" style="font-size:20px;color:red"></i>sudo modprobe -v rtl8723be ant_sel=1</span><br>
  <h1 style="font-size: 20px;display: block;padding: 10px 10px;">This will create a config file to make the setting permanent.</h1>      
-		      <br><i class="fa fa-chain" style="font-size:48px;color:red"></i>&nbsp;&nbsp;<span id="code">sudo tee /etc/modprobe.d/rtl8723be.conf <<< "options rtl8723be ant_sel=1"</span><br>
+		      <br><i class="fa fa-chain" style="font-size:30px;color:red"></i>&nbsp;&nbsp;<span id="code">sudo tee /etc/modprobe.d/rtl8723be.conf <<< "options rtl8723be ant_sel=1"</span><br>
 		      
 		                    <h1 style="font-size: 20px;display: block;padding: 10px 10px;">TAGS</h1>
                                     <a id="tags"  href="https://askubuntu.com/questions/872931/how-to-make-wifi-signal-stronger-on-ubuntu-16-04-lts">Wifi</a>
