@@ -25,11 +25,12 @@ body,html
   #code
       {  
             color: crimson;
-            background-color:grey;
+            background-color:rgb(241, 241, 241);
             padding-left: 4px;
             padding-right: 4px;
             font-family: Consolas,"courier new";
             display:inline-block;
+            border-radius:3px;
             
       }
 
