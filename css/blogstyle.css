@@ -41,17 +41,14 @@ body,html
     height: 3px;
     background-color: white;
     margin: 6px 0;
-       
-}
+           }
 
 #menu{
   position: absolute;
   right: 30px;
   top:10px;
- display: none;
-  
-
-}
+  display: none;
+      }
 
 #menu div:hover{
   box-shadow: 0 0 20px white;
@@ -100,35 +97,33 @@ body,html
   #header-inner{
     
     width: 100%;
-  padding: 60px 150px;
+    padding: 60px 150px;
   }
 
   #user{
-    color:white;
-  
-    display: inline-block;
-    text-align: left;
-    white-space: nowrap;
+   color:white;
+   display: inline-block;
+   text-align: left;
+   white-space: nowrap;
    font-family: "Trebuchet MS", Helvetica, sans-serif;
    text-shadow: 0 0 20px  green;
 
-}
+       }
 
 
   #main-nav ul li{
     display: inline-block;
-      padding: 10px 25px;
+    padding: 10px 25px;
      
    }
+      
    #main-nav a{
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-family: "Raleway", sans-serif;
-    
     padding: 10px 0; 
-
-   }
+    }
 
    #main-nav ul{
     float: right;
@@ -139,9 +134,7 @@ body,html
   #main-nav a:hover{
     opacity: 0.8;
      border-bottom: 1.5px solid white;
-
-
-  }
+}
 
  
 
@@ -167,16 +160,7 @@ body,html
   box-shadow: 0 0 10px grey;
 margin: 15px 0;
 }
-/*
-#row-content:hover
-{
-      cursor: pointer;
-      -webkit-transition: 0.5s; 
-    transition: 0.5s;
-      margin: 10px 10px;
-      
-}
-*/
+
 
 
 #content{
@@ -195,8 +179,8 @@ margin: 15px 0;
   font-size: 30px;
   color: black;
   font-family: "Arial Black", Gadget, sans-serif;
-line-height: 2;
-word-spacing: 2px;
+  line-height: 2;
+  word-spacing: 2px;
 
 }
 
@@ -236,18 +220,15 @@ word-spacing: 2px;
 }
 
 .descripition{
- 
- padding: 20px 0px;
-font-size: 20px;
-word-spacing:5px;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-
-}
+  padding: 20px 0px; 
+  font-size: 20px;
+  word-spacing:5px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      }
 
 
 .link{
-
-text-decoration: none;
+ text-decoration: none;
 }
 
 .link:hover{
@@ -265,13 +246,12 @@ text-decoration: none;
   border:1px solid #05bca9;
   font-family: Helvetica,Arial,sans-serif;
   font-weight: 500;
-      line-height:1.5;
+  line-height:1.5;
 }
 
 
 #tags:hover{
-  
-  color:  #05bca9;
+   color:  #05bca9;
 }
 
 #footer{
@@ -283,11 +263,8 @@ text-decoration: none;
 }
 
 #footer ul li{
-
-display: inline-block;
-
-
-}
+ display: inline-block;
+      }
 
 #footer ul{
   word-spacing: 20px;
@@ -303,10 +280,8 @@ display: inline-block;
 }
 
 #footer img:hover{
-
-  box-shadow: 0 0 10px black;
-  
-}
+ box-shadow: 0 0 10px black;
+  }
 
 
 .sidenav {
@@ -321,7 +296,7 @@ display: inline-block;
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
-       visibility: hidden;
+    visibility: hidden;
 }
 
 .sidenav a {
@@ -381,7 +356,6 @@ display: inline-block;
 box-shadow:0 0 10px black;
 }
 
-
 @media screen and (max-width: 1100px)
 {
 
@@ -395,7 +369,7 @@ box-shadow:0 0 10px black;
  {
 
  #content{
-   padding: 50px 1px;
+   padding: 50px 2px;
  }
 
 
@@ -406,13 +380,12 @@ box-shadow:0 0 10px black;
 @media screen and (max-width: 1000px){
 
 
-#menu{
-  display: block;
-}
+  #menu{
+    display: block;
+   }
       
       .sidenav a,.sidenav {
-            
-             visibility: visible; 
+            visibility: visible; 
       }
 
 
@@ -425,7 +398,7 @@ box-shadow:0 0 10px black;
  #header-inner{
     
     width: 100%;
-  padding: 10px 20px;
+    padding: 10px 20px;
   }
 
   
@@ -446,12 +419,12 @@ box-shadow:0 0 10px black;
   bottom: 45px;
 
 }
-      #heading{
-            font-size:25px;
-          }
+     
+ #heading{
+     font-size:25px;
+  }
       
-      #footer{
- 
+  #footer{
   padding: 50px 10px 20px 10px;
   }
 
