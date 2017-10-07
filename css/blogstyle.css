@@ -14,8 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body,html
 {
--@-webkit-font-smoothing: antialiased!important;
-    font-family: AvenirNext,sans-serif!important;     
+   font-family: 'Titillium Web', sans-serif!important;   
 }
 
  * {
