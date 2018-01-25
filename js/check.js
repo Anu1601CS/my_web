@@ -1,11 +1,4 @@
-
-window.alert("hii");
-
-
-
-
-
-  $(document).on('scroll',function()
+$(document).on('scroll',function()
   {
 
     if($(document).scrollTop()>=$('#intro').offset().top && $(document).scrollTop()<$('#work').offset().top)
