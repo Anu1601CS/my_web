@@ -94,7 +94,6 @@ body,html
   }
 
   #header-inner{
-    
     width: 100%;
     padding: 60px 150px;
   }
@@ -128,8 +127,6 @@ body,html
     float: right;
    }
 
-  
-  
   #main-nav a:hover{
     opacity: 0.8;
      border-bottom: 1.5px solid white;
