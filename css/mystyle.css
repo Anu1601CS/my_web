@@ -462,6 +462,12 @@ display: inline-block;
 
 }
 
+#line1 p {
+	font-size: 15px!important;
+	color: white;
+	padding: 0;
+	text-decoration: none;
+}
 #line2{
 	color: white;
  font-family: "Source Sans Pro", Helvetica, sans-serif;
