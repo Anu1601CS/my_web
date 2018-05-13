@@ -488,6 +488,11 @@ display: inline-block;
          padding-top:15px;
 }
 
+#line3 a{
+	color: white;	
+	text-decoration: none;
+}
+
 #line4{
 
 	font-weight: 100;
