@@ -450,12 +450,30 @@ display: inline-block;
 	color: white;
 	font-size: 40px;
 	padding-top:20px!important;
-	border-bottom: 1.5px solid #999999;
-	padding-bottom: 15px;
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
-	    font-weight:400;
-        letter-spacing: 1px;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight:400;
+	letter-spacing: 1px;
 
+}
+
+.code{
+	position: relative;
+	font-family: "Roboto Mono",monospace;
+	font-weight: 800;
+	font-size: 30px;
+	color: #26F9D8;
+}
+
+.code .var {
+	color: #F82C68;
+}
+.code .init {
+	color: #FFF;
+}
+.typed-cursor{
+	opacity: 1;
+	color: #fff;
+	font-size: 2em;
 }
 
 #line1 p {
@@ -485,7 +503,7 @@ display: inline-block;
 }
 
 #line3 a{
-	color: white;	
+	color: white;
 	text-decoration: none;
 }
 

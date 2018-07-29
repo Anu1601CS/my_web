@@ -21,6 +21,7 @@
      <meta name="theme-color" content="grey">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
      <script src="js/parallax.js"></script>
+     <script src="js/typed.js"></script>
    </head>
 
  <body >
@@ -100,16 +101,16 @@
 
                         <div id="intro-image">
 
-                         <img src="css/image/logo.jpg" id="line" style="display: none;" >
+                         <img src="css/image/logo.jpg" id="line">
 
                         </div>
 
-                         <h1 id="line1"  style="display: none;">Anurag <br><p>( @anu1601cs )</p> </h1>
-                         <h1 id="line2"  style="display: none;">Major: CSE At IIT-P </h1>
-			    <h1 id="line3"  style="display: none;"><a href="https://summerofcode.withgoogle.com/">GSoC'18</a> <a href="https://summerofcode.withgoogle.com/projects/#4545951465734144">@joomla</a></h1>
-                         <h1 id="line4"  style="display: none;">Developer | Open Source Enthusiast</h1>
+                         <h1 id="line1"  >Anurag <br><p>( @anu1601cs )</p> </h1>
+                         <h1 id="line2"  >Major: CSE At IIT-P </h1>
+			                     <h1 id="line3"  ><a href="https://summerofcode.withgoogle.com/">GSoC'18</a> <a href="https://summerofcode.withgoogle.com/projects/#4545951465734144">@joomla</a></h1>
+                         <h1 id="line4"  >Developer | Open Source Enthusiast</h1>
                          <br>
-                         <div id ="social" style="display:none;">
+                         <div id ="social" >
                          <ul >
 
                          <li><a href="https://www.facebook.com/Anu1601cs" target="_blank" title="facebook" class="fa faw-up fa-facebook"></a></li>
@@ -122,12 +123,10 @@
                          </ul>
 			   </div>
 
-                          <br>
+          <br>
 
-                           <a id="learn-more"  href="http://www.blogme.co/" style="display: none;"  >Learn more</a>
-
-                       </div>
-
+            <span id="typedtext" class="code"></span>
+            </div>
 
    </section>
    <!--INTRO SECTION CLOSED-->
@@ -519,17 +518,16 @@ form.reset();</script>
 
 <script>
 
-$(document).ready(function(){
+document.addEventListener("DOMContentLoaded", function() {
+var typed = new Typed("#typedtext", {
+  strings: ['<span class="var">myWorld</span> = <span class="init">code</span>;'],
+  smartBackspace: true, // Default value
+  startDelay: 100,
+  typeSpeed: 100,
+});
+});
 
-        $("#line").delay("1300").fadeIn(1000);
-        $("#line1").delay("1600").fadeIn(1000);
-        $("#line2").delay("1900").fadeIn(1000);
-        $("#line3").delay("2200").fadeIn(1000);
-        $("#line4").delay("2500").fadeIn(1000);
-        $("#social").delay("2800").fadeIn(1000);
-         $("#learn-more").delay("3100").fadeIn(1000);
-
-});   </script>
+</script>
 
 <script>
 function sorry() {
