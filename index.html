@@ -8,6 +8,10 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+	</script>
+	<link rel="stylesheet"
+		href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
 </head>
 
 <body class="is-preload landing">
@@ -38,9 +42,23 @@
 					<p>Student developer @ Google Summer of Code | Mentor @ Google<br />
 						CSE Major @ Indian Institute of Technology Patna <br /> Open Source Enthusiast </p>
 				</header>
-				<span class="image"><img src="images/avatar.jpg" alt="" /></span>
+				<span class="image"><img src="images/myAvatar.png" alt="" /></span>
 			</div>
-			<a href="#four" class="goto-next scrolly">Next</a>
+			<a href="#second" class="goto-next scrolly">Next</a>
+		</section>
+
+		<section id="second" class="wrapper style1 special fade-up">
+			<div class="container">
+				<header class="major">
+					<h2>Open Source Contributions</h2>
+				</header>
+				<div class="box alt">
+					<div class="calendar">
+						<!-- Loading stuff -->
+						Loading the data just for you.
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<!-- Four -->
@@ -139,6 +157,9 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+		new GitHubCalendar(".calendar", "anu1601cs");
+	</script>
 
 </body>
 
