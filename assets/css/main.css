@@ -141,6 +141,10 @@ table {
 	overflow-x: scroll !important;
 }
 
+#user-activity-overview{
+	display: none!important;
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
