@@ -1,2 +1,2 @@
 # my_web
-My personal webpage designed  and created by me. 
+My personal webpage created by me. 
