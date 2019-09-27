@@ -141,6 +141,10 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+#user-activity-overview {
+	display:none;
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
